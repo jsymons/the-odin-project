@@ -1,0 +1,94 @@
+div{
+	font-family: sans-serif;
+}
+
+#top{
+	width: 100%;
+	position: fixed;
+}
+
+#bottom{
+	position: absolute;
+	bottom: 1;
+	width: 100%;
+	background-color: rgb(240,240,240);
+	border-top: 1px solid rgb(230,230,230);
+	height: 40px;
+}
+
+.right{
+	float: right;
+	right: 1%;
+	position: relative;
+	top: 10px;
+}
+
+.left{
+	float: left;
+	left: 1%;
+	position: relative;
+	top: 10px;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#search{
+	border: 1px solid blue;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 43em;
+	margin-bottom: 1em;
+}
+
+.buttons{
+	display: inline-block;
+	background-color: rgb(240,240,240);
+	border: 1px solid rgb(220,220,220);
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 0.6em;
+	color: rgb(100,100,100);
+	margin: 0.5em;
+}
+
+#bdiv{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(100,100,100);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	height: 6em;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+#sign_in{
+	background: blue;
+	padding: 0.75em 0.9em 0.75em 0.9em;
+	font-size: 0.9em;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+}
