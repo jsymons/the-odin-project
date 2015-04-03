@@ -3,8 +3,9 @@ div{
 }
 
 #top{
-	width: 100%;
+	width:100%;
 	position: fixed;
+	top: 1em;
 }
 
 #bottom{
@@ -14,25 +15,38 @@ div{
 	background-color: rgb(240,240,240);
 	border-top: 1px solid rgb(230,230,230);
 	height: 40px;
+	vertical-align: middle;
 }
 
-.right{
+.t_right{
 	float: right;
 	right: 1%;
 	position: relative;
-	top: 10px;
+	display:inline-block;
+	vertical-align:top;
+
 }
 
-.left{
+.b_right{
+	float: right;
+	right: 1%;
+	position: relative;
+	top: 0.75em;
+	word-spacing: 1em;
+}
+
+.b_left{
 	float: left;
 	left: 1%;
 	position: relative;
-	top: 10px;
+	top: 0.75em;
+	word-spacing: 1em;
+
 }
 
 .content{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
@@ -70,10 +84,12 @@ a {
 	text-decoration: none;
 	font-size: 12px;
 	color: rgb(100,100,100);
+	padding: 0.5em;
 }
 
 a:hover {
 	text-decoration: underline;
+	color: black;
 }
 
 #logo {
@@ -86,21 +102,28 @@ a:hover {
 
 #sign_in{
 	background: #4486F9;
-	padding: 0.75em 0.9em 0.75em 0.9em;
-	font-size: 0.9em;
+	padding: 0.8em 1em 0.8em 1em;
 	color: white;
 	font-weight: bold;
 	display: inline-block;
+	cursor:default;
 }
 
-#grid{
-	padding: 5px;
-	border: 2px solid white;
-	background-color: white;
-	display: inline-block;
+
+#apps{
+	width: 16px;
+	height: 16px;
+	background: url("apps.png");
+	display:inline-block;
+	vertical-align: text-bottom;
+	cursor:default;
 }
-.grid_dot{
-	background-color: black;
-	padding: 2px;
-	border: 2px solid white;
+#apps:hover{
+	width: 16px;
+	height: 16px;
+	background: url("apps-hover.png");
+	display:inline-block;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	cursor:default;
 }
