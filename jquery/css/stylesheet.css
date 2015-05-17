@@ -1,0 +1,30 @@
+#grid{
+	width: 800px;
+	height: 800px;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 10px auto;
+}
+
+.gridTable{
+	padding: 0px;
+	border-spacing: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.gridSquare{
+	border: 0px;
+	background-color: #000000;
+	opacity: 0;
+}
+
+#reset{
+	margin: 10px auto;
+	text-align: center;
+
+}
+td{
+	border: 1px solid #dddddd;
+	padding: 0px;
+}
